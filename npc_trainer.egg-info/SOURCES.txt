@@ -1,8 +1,0 @@
-LICENSE
-README.md
-setup.py
-npc_trainer.egg-info/PKG-INFO
-npc_trainer.egg-info/SOURCES.txt
-npc_trainer.egg-info/dependency_links.txt
-npc_trainer.egg-info/requires.txt
-npc_trainer.egg-info/top_level.txt
