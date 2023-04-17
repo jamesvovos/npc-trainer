@@ -3,12 +3,12 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "myprojectjv"
+name = "npc-ai-trainer"
 version = "0.0.1"
 authors = [
   { name="James Vovos", email="james.vovos@gmail.com" },
 ]
-description = "A small example package"
+description = "Package to train AI NLP language model for dynamic NPCs in games."
 readme = "README.md"
 requires-python = ">=3.7"
 classifiers = [
