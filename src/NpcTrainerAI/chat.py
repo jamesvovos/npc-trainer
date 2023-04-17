@@ -3,6 +3,7 @@ import random
 import json
 import requests
 import torch
+import pkg_resources
 from NpcTrainerAI.model import NeuralNet
 from NpcTrainerAI.processor import DataProcessor
 
@@ -15,7 +16,8 @@ class ChatBot(object):
     def __init__(self, training_required: bool, npc_id: int):
         self.npc_id = npc_id
         self.file = "data.pth"
-        self.data = torch.load(self.file)
+        self.data = torch.load(
+            pkg_resources.resource_filename('NpcTrainerAI', 'data.pth'))
         self.dp = DataProcessor(training_required)
         self.device = torch.device(
             "cuda" if torch.cuda.is_available() else "cpu")

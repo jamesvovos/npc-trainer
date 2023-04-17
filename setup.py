@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="NpcTrainerAI",
-    version="0.0.2",
+    version="0.0.5",
     author="James Vovos",
     author_email="<james.vovos@gmail.com>",
     description="Creating/training NPC AI models using Pytorch and spaCy",
@@ -13,6 +13,8 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/jamesvovos/npc-trainer",
     packages=find_packages(),
+    package_data={'NpcTrainerAI': ['data.pth']},
+    include_package_data=True,
     classifiers=[
         "Development Status :: 1 - Planning",
         "Intended Audience :: Developers",

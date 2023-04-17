@@ -3,6 +3,7 @@ import torch
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
 from NpcTrainerAI.model import NeuralNet
+import pkg_resources
 
 nlp = spacy.load('en_core_web_md')
 
@@ -66,7 +67,7 @@ class TrainingModel(object):
         }
 
         # saves and serializes the data
-        FILE = "data.pth"
+        FILE = pkg_resources.resource_filename('NpcTrainerAI', 'data.pth')
         torch.save(data, FILE)
 
         print(f"training complete, file saved to {FILE}")
