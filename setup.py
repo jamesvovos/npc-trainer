@@ -13,7 +13,7 @@ LONG_DESCRIPTION = "A package that allows you to build your own NPC AI models"
 
 # Setting up
 setup(
-    name="npc-ai-trainer",
+    name="npc_trainer",
     version=VERSION,
     author="James Vovos",
     author_email="<james.vovos@gmail.com>",
