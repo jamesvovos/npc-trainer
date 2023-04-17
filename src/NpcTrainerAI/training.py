@@ -2,7 +2,7 @@ import spacy
 import torch
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
-from model import NeuralNet
+from NpcTrainerAI.model import NeuralNet
 
 nlp = spacy.load('en_core_web_md')
 

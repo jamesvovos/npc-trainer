@@ -1,7 +1,7 @@
 import spacy
 from spacy import displacy
 import numpy as np
-from training import TrainingModel
+from NpcTrainerAI.training import TrainingModel
 
 nlp = spacy.load('en_core_web_md')
 

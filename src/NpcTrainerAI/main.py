@@ -1,5 +1,5 @@
 import spacy
-from chat import ChatBot
+from NpcTrainerAI.chat import ChatBot
 
 nlp = spacy.load('en_core_web_md')
 

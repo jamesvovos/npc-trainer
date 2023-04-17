@@ -3,8 +3,8 @@ import random
 import json
 import requests
 import torch
-from model import NeuralNet
-from processor import DataProcessor
+from NpcTrainerAI.model import NeuralNet
+from NpcTrainerAI.processor import DataProcessor
 
 nlp = spacy.load('en_core_web_md')
 

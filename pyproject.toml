@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "NpcTrainerAI"
-version = "0.0.1"
+version = "0.0.2"
 authors = [
   { name="James Vovos", email="james.vovos@gmail.com" },
 ]
@@ -16,3 +16,8 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+spacy = "^3.2.0"
+torch = "^1.9.0"

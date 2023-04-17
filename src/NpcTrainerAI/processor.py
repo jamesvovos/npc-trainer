@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 import requests
 import json
-from pipeline import CustomPipeline
+from NpcTrainerAI.pipeline import CustomPipeline
 
 #nlp = spacy.load("en_core_web_sm")
 nlp = spacy.load('en_core_web_md')
